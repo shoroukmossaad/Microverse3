@@ -1,14 +1,29 @@
 :root {
-    --main-white: #f0f0f0;
-    --main-red: #be3144;
-    --main-blue: #45567d;
-    --main-gray: #303841;
-}
-* {
-  margin: 0;
-  padding: 0;
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65;
 }
 
-
-
- 
+.survey-form {
+  background-color: var(--color-darkblue-alpha) !important;
+}
+label,p{
+  color: #f3f3f3;
+}
+h1{
+  color: var(--color-white) !important;
+}
+ .success{
+  
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: var(--color-green);
+ color: #f3f3f3;
+    cursor: pointer;
+ }
+ .inside{
+  width: 95% !important;
+ }
+ body {background-color: var(--color-darkblue-alpha) !important;}
